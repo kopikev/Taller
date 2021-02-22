@@ -1,0 +1,42 @@
+h1, h2, h3, h4, h5, p, a, button, form, input, select, option, textarea {font-family: 'Montserrat', sans-serif;}  
+
+/* Maquetación, Estilo y Acabados en CSS */
+
+/* WhastsApp Button */
+aside#whatsapp {  }
+aside#whatsapp a {  }
+aside#whatsapp a i {  }
+aside#whatsapp a:hover {  }
+aside#whatsapp a:hover i {  }
+
+/* ScrollTop Button */
+aside#scroll-top {  }
+aside#scroll-top a {  }
+aside#scroll-top a i {  }
+aside#scroll-top a:hover {  }
+aside#scroll-top a:hover i {  }
+
+/* Header */
+
+header {width: 100%;height: 100px;margin: 0;float: none;position: fixed;top: 0;left: 0;z-index: 99999;background: #fff;}
+header article {  width: 1200px;height: 100px;margin:  0 auto;float : none;position: relative;}
+header article figure {  width: 170px;height: 100px;margin: 0 auto;float: left;position:relative;
+    }
+header article figure a {  width: 160px;height: 100px;margin: 0 auto;float: none;position: relative;display: block; transition: all 0.3s ease-in;}
+header article figure a img {width: 130px;height: 98px;margin: 7px;float: left;display: block;position: relative;}
+header article figure a:hover { color: #000000;transition: all 0.3s ease-in; }
+header article figure a:hover img { color: #000000;transition: all 0.3s ease-in; }
+
+header article nav {<nav style="width: 751px;height: 50px;margin: 40px;position: relative;text-decoration: none;float: right;"> }
+header article nav a {  width: auto;height: 45px;float: left;position: relative;display: block;color: #b30404;text-decoration: none;font-size: 1.3em;font-weight: 500;padding: 12px 15px;text-transform: uppercase;transition: all 0.3s ease-in;} 
+header article nav a:hover { color: #000000;transition: all 0.3s ease-in; }
+
+footer { width: 93%;height: 246px;margin: 0;float: none;position: relative;background: url(../img/footer_bg.png) no-repeat top center #333;background-size: cover; }
+footer article { width: 1094px;height: 126px;margin: 0 auto;float: none;position: relative; }
+footer article hr {width: 453px;height: 1px;display: block;margin: 99px 0;float: left;border: none;background: #555; }
+footer article figure { width: 107px;height: 157px;margin: 25px 38px 25px 42px;float: left;position: relative
+ }
+footer article figure a { width: 139px;height: 118px;margin: 48px auto;float: right;position: relative;display: block;transition: all 0.3s ease-in; }
+footer article figure a img {width: auto;height: 97px;display: block;margin: 0 auto;float: none;position: relative;transition: all 0.3s ease-in; }
+footer article figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in; }
+footer article figure a:hover img { transition: all 0.3s ease-in; }
